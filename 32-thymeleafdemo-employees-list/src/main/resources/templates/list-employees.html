@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employe Directory</title>
+</head>
+<body>
+<div class="container"></div>
+<h3>Employee Directory</h3>
+    <table border="1" class="table table-boardered table-striped">
+      <thead class="thead-dark">
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      </thead>
+      <tbody>
+        <tr th:each="tempEmployee:${employees}">
+          <td th:text="${tempEmployee.firstName}"/>
+          <td th:text="${tempEmployee.lastName}"/>
+          <td th:text="${tempEmployee.email}"/>
+        </tr>
+
+      </tbody>
+    </table>
+
+</body>
+</html>

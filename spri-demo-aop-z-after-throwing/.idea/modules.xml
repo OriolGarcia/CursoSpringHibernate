@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spri-demo-aop/spri-demo-annotations2.iml" filepath="$PROJECT_DIR$/spri-demo-aop/spri-demo-annotations2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spri-demo-aop.iml" filepath="$PROJECT_DIR$/.idea/spri-demo-aop.iml" />
+    </modules>
+  </component>
+</project>
